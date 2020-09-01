@@ -1,11 +1,18 @@
-#navcolor {
-    background: #48A5A0;
+h1{
+    background: #4bad98;
+}
+
+.main-content{
+    margin: 25px 0px 25px 0px;
+    width: 70%;
+    background-color: white;
+    padding: 25px;
 }
 
 .footer {
     position: fixed;
     padding: 10px 0px 0px 0px;
-    border-top: 7px solid #48A5A0;
+    border-top: 7px solid #4bad98;
     left: 0;
     bottom: 0;
     width: 100%;
