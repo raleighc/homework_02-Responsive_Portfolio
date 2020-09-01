@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html lang="en" class="no-js">
   <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
@@ -26,7 +26,8 @@
       rel="stylesheet"
     />
   </head>
-  <body style="background-image: url('./assets/images/ignasi_pattern_s.png')">
+  <body>
+    <!-- Nav bar - with collapsing button and links to about me, portfolio, and contact page -->
     <nav id="navcolor" class="navbar navbar-expand-lg navbar-light bg-light">
       <h1 class="navbar-brand border text-white titlefonts">Raleigh Chesney</h1>
       <button
@@ -48,16 +49,16 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 main-content">
+    <!-- Main Content - form to submit name, email, and message -->
+    <main class="container">
+      <section class="row">
+        <article class="col-sm-8 main-content">
           <h2>Contact</h2>
           <hr />
           <!-- name, email, and message form -->
           <form>
             <div class="row">
               <div class="col-md-10">
-                <div class="col-md-1"></div>
                 <div class="form-group">
                   <label for="inputName">Name</label>
                   <input type="text" class="form-control square" id="inputName" />
@@ -78,9 +79,10 @@
             </div>
             <button type="submit" id="submitbutton" class="btn btn-primary square">Submit</button>
           </form>
-        </div>
-      </div>
-    </div>
+        </article>
+      </section>
+    </main>
+    <!-- Footer - copyright info -->
     <footer class="footer">
       <p>©Copyright</p>
     </footer>

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+    background-image: url("./images/ignasi_pattern_s.png");
+}
+  
 h1 {
   background: #4bad98;
 }
@@ -29,7 +33,8 @@ h2 {
   float: left;
   margin-right: 15px;
   margin-bottom: 10px;
-  width: 180px;
+  width: 50%;
+  max-width: 180px;
 }
 
 .port-images{
