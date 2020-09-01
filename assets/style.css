@@ -1,17 +1,33 @@
+* {
+    /*takes any default margin and padding away from the entire page */
+    margin: 0;
+    padding: 0;
+  }
+  
+
 h1 {
     background: #4bad98;
 }
-
+.titlefonts{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 25px;
+}
+h2{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
+    color: #4bad98;
+}    
 .main-content {
-    margin: 100px 0px 100px 0px;
+    margin: 75px 20px 75px 20px;
     background-color: white;
     padding: 25px;
 }
 
-#portait {
+#portrait {
     float: left;
-    margin: 10px;
-    size: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
 }
 
 .footer {
