@@ -17,31 +17,30 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
   </head>
-  <body>
-    <div>
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-light p-4">
-          <a href="./index.html">About Me</a>
-          <a href="./portfolio.html">Portfolio</a>
-          <a href="./contact.html">Contact Info</a>
-        </div>
-      </div>
-      <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">Raleigh Chesney</span>
+  <body style="background-image: url('./assets/images/ignasi_pattern_s.png');">
+    <nav id="navcolor" class="navbar navbar-expand-lg navbar-light bg-light">
+        <h1 class="navbar-brand border bg-info text-white">Raleigh Chesney</h1>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="./index.html">About Me</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+          </div>
+        </div>
       </nav>
-    </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -49,6 +48,10 @@
         </div>
       </div>
     </div>
+    <footer class="footer">
+        <p>©Copyright 2020 Raleigh Chesney
+        </p>
+      </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
