@@ -55,25 +55,28 @@
           <hr />
           <!-- name, email, and message form -->
           <form>
-            <div class="form-group">
-              <label for="inputName">Name</label>
-              <input type="text" class="form-control" id="inputName" />
+            <div class="row">
+              <div class="col-md-10">
+                <div class="col-md-1"></div>
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input type="text" class="form-control square" id="inputName" />
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input type="text" class="form-control square" id="inputEmail" />
+                </div>
+                <div class="form-group">
+                  <label for="messageTextArea">Message</label>
+                  <textarea
+                    class="form-control square"
+                    id="messageTextArea"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="inputEmail">Email</label>
-              <input type="text" class="form-control" id="inputEmail" />
-            </div>
-            <div class="form-group">
-              <label for="messageTextArea">Message</label>
-              <textarea
-                class="form-control"
-                id="messageTextArea"
-                rows="3"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-teal">
-              Submit
-            </button>
+            <button type="submit" id="submitbutton" class="btn btn-primary square">Submit</button>
           </form>
         </div>
       </div>

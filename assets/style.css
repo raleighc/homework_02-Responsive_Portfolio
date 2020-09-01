@@ -38,10 +38,23 @@ h2 {
     float: left;
 }
 
+.square{
+    border-radius: 0 !important;
+}
+
+.form-group{
+    margin: 0px 20px 20px 20px;
+}
+
+#submitbutton {
+    background-color: #4bad98;
+    border-color: #4bad98;
+    padding: 15px 30px 15px 30px;
+  }
 
 .footer {
   position: fixed;
-  padding: 10px 0px 0px 0px;
+  padding: 12px 0px 0px 0px;
   border-top: 7px solid #4bad98;
   left: 0;
   bottom: 0;
