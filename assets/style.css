@@ -1,12 +1,17 @@
-h1{
+h1 {
     background: #4bad98;
 }
 
-.main-content{
-    margin: 25px 0px 25px 0px;
-    width: 70%;
+.main-content {
+    margin: 100px 0px 100px 0px;
     background-color: white;
     padding: 25px;
+}
+
+#portait {
+    float: left;
+    margin: 10px;
+    size: 100%;
 }
 
 .footer {
