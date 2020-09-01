@@ -11,6 +11,10 @@ h1 {
   background: #4bad98;
 }
 
+.nav-link{
+    text-align: right;
+}
+
 .titlefonts {
   font-family: "Source Serif Pro", serif;
   font-size: 25px;
@@ -40,7 +44,7 @@ h2 {
 .port-images{
     padding: 15px;
     width: 100%;
-    height: auto;
+    height: 100%;
     float: left;
 }
 
