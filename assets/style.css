@@ -1,0 +1,15 @@
+#navcolor {
+    background: #48A5A0;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px 0px 0px 0px;
+    border-top: 7px solid #48A5A0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #6C757D;
+    text-align: center;
+  }
